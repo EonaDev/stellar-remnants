@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23f2810e567a744686ac88883f6c2af, type: 3}
+  m_Name: PlayerBase
+  m_EditorClassIdentifier: 
+  StrafeSpeedMultiplier: 0.875
+  ReverseSpeedMultiplier: 0.75
+  JumpStrength: 4.5
+  AirbornDrag: 0.1
+  AirbornGraceJumpWindow: 0.5
+  FallDamageStartVelocity: 15
+  fallDamageScaling: 1
+  OptimalGravity: -9.81
+  OptimalGravitySpeedMultiplierMin: 0.5
+  LowGravityThreshold: -3
+  MicroGravityThreshold: -0.05
+  WalkSpeed: 3.5
+  WalkAcceleration: 0.5
+  WalkStartSlideThreshold: 3.6
+  WalkEndSlideThreshold: 3
+  WalkDecelerationWindow: 0.5
+  SprintSpeed: 5.5
+  SprintAcceleration: 0.5
+  SprintStartSlideThreshold: 5.6
+  SprintEndSlideThreshold: 5
+  SprintMinimumAngle: 0.707
+  SneakSpeed: 2.5
+  SneakAcceleration: 0.5
+  SneakStartSlideThreshold: 5.1
+  SneakEndSlideThreshold: 2
+  SwimSpeed: 3.5
+  ClimbSpeed: 2.5
+  MotionlessStartSlideThreshold: 0.1
+  SlideStartAngle: 45
+  SlideEndAngle: 35
+  SlideEndAngleBracing: 40
+  SlideFriction: 0.1
+  SlideTumbleThreshold: 25
+  SlideBraceDecelerationMultiplier: 3
+  SlideDownSlopeVelocityMultiplier: 0.001
+  SlideMinDuration: 0.25
+  lightAdsMovementSpeedMultiplier: 1
+  primeAdsMovementSpeedMultiplier: 0.9
+  heavyAdsMovementSpeedMultiplier: 0.5
+  FocusOnNodeRange: 3

@@ -1,0 +1,735 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Items_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 59d2badf7c58df54689983c5aff958fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 93553077667561472
+    m_Localized: acid canister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077701115904
+    m_Localized: mag assault round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310208
+    m_Localized: standard assault round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310209
+    m_Localized: cryofluid canister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310210
+    m_Localized: electrofluid canister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310211
+    m_Localized: EMP charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310212
+    m_Localized: shaped explosive charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310213
+    m_Localized: propellant canister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310214
+    m_Localized: protean grenade housing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310215
+    m_Localized: standard long round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310216
+    m_Localized: mag precision round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310217
+    m_Localized: standard precision round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310218
+    m_Localized: mag rail round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310219
+    m_Localized: protean rocket housing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310220
+    m_Localized: standard shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310221
+    m_Localized: needle repeater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310222
+    m_Localized: SMG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310223
+    m_Localized: light repeater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310224
+    m_Localized: mag repeater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310225
+    m_Localized: plasma repeater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310226
+    m_Localized: needle rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310227
+    m_Localized: assault rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310228
+    m_Localized: light rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310229
+    m_Localized: mag assault rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310230
+    m_Localized: plasma rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310231
+    m_Localized: needle cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310232
+    m_Localized: machine gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310233
+    m_Localized: light cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310234
+    m_Localized: plasma assault cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310235
+    m_Localized: needle lobber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310236
+    m_Localized: EMP grenade lobber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310237
+    m_Localized: grenade lobber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310238
+    m_Localized: light lobber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310239
+    m_Localized: plasma grenade lobber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310240
+    m_Localized: needle caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310242
+    m_Localized: EMP grenade launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310243
+    m_Localized: grenade caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310244
+    m_Localized: grenade launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310245
+    m_Localized: missile pod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310246
+    m_Localized: light caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310248
+    m_Localized: plasma caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310249
+    m_Localized: plasma grenade launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310250
+    m_Localized: plasma missile pod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310252
+    m_Localized: needle launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310254
+    m_Localized: mortar launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310255
+    m_Localized: rocket launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310256
+    m_Localized: missile launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310257
+    m_Localized: light launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310258
+    m_Localized: plasma mortar launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310259
+    m_Localized: plasma rocket launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310260
+    m_Localized: plasma missile launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077705310261
+    m_Localized: shard pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504512
+    m_Localized: pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504513
+    m_Localized: eagle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504514
+    m_Localized: photon pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504515
+    m_Localized: mag pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504516
+    m_Localized: plasma pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504517
+    m_Localized: shard rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504518
+    m_Localized: battle rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504519
+    m_Localized: photon rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504520
+    m_Localized: mag battle rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504521
+    m_Localized: plasma carbine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504522
+    m_Localized: shard cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504523
+    m_Localized: sniper rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504524
+    m_Localized: scout rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504525
+    m_Localized: photon cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504526
+    m_Localized: plasma sniper rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504527
+    m_Localized: plasma scout rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504528
+    m_Localized: railgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504529
+    m_Localized: beam cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504530
+    m_Localized: shattershot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504531
+    m_Localized: boltgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504532
+    m_Localized: flashshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504533
+    m_Localized: pulse gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504534
+    m_Localized: acid thrower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504535
+    m_Localized: shatter rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504536
+    m_Localized: electro thrower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504537
+    m_Localized: flamethrower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504538
+    m_Localized: cryo thrower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504539
+    m_Localized: shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504540
+    m_Localized: flash rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504541
+    m_Localized: pulse rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504542
+    m_Localized: shatter cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504543
+    m_Localized: heavy shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504544
+    m_Localized: flash cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504545
+    m_Localized: heavy pulse rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504546
+    m_Localized: reaction chamber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504547
+    m_Localized: chemical sensor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504548
+    m_Localized: liquid cooling hose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504549
+    m_Localized: power distributor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504550
+    m_Localized: fuel rod housing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504551
+    m_Localized: generator turbine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504552
+    m_Localized: matter injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504553
+    m_Localized: ionization chamber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504554
+    m_Localized: magnetic coil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504555
+    m_Localized: plasma stabilizer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504556
+    m_Localized: pressure regulator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504557
+    m_Localized: radiation shielding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504558
+    m_Localized: superconducting wire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504559
+    m_Localized: thermal regulator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504560
+    m_Localized: '% scales'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504561
+    m_Localized: '% bark'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504562
+    m_Localized: '% pseudo-coral'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504563
+    m_Localized: '% plate'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504564
+    m_Localized: '% cap'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504565
+    m_Localized: '% flesh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504566
+    m_Localized: '% membrane'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504567
+    m_Localized: '% trap flower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504568
+    m_Localized: '% flower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504569
+    m_Localized: '% flower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504570
+    m_Localized: '% trap flower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504571
+    m_Localized: '% trap flower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504572
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504573
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504574
+    m_Localized: '% berry'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504575
+    m_Localized: '% coconut'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504576
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504577
+    m_Localized: '% berry'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504578
+    m_Localized: '% melon'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504579
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504580
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504581
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504582
+    m_Localized: '% berry'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504583
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504584
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504585
+    m_Localized: '% fruit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504586
+    m_Localized: '% berry'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504587
+    m_Localized: '% hair'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504588
+    m_Localized: '% horn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504589
+    m_Localized: '% husk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504590
+    m_Localized: '% leaf'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504591
+    m_Localized: '% leaf'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504592
+    m_Localized: '% leaf'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504593
+    m_Localized: '% leaves'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504594
+    m_Localized: '% leaf'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504595
+    m_Localized: '% leaf'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504596
+    m_Localized: '% moss'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504597
+    m_Localized: '% moss'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504598
+    m_Localized: '% spine'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504599
+    m_Localized: '% needles'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504600
+    m_Localized: '% briar'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504601
+    m_Localized: '% pollen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504602
+    m_Localized: '% sac'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504603
+    m_Localized: '% stalk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504604
+    m_Localized: '% tentacle'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504605
+    m_Localized: '% tooth'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504606
+    m_Localized: '% tube'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504607
+    m_Localized: '% vine'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504608
+    m_Localized: '% whiskers'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504609
+    m_Localized: '% polyp'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504610
+    m_Localized: '% polyp'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504611
+    m_Localized: '% rock'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504612
+    m_Localized: '% mycelium'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504613
+    m_Localized: '% roots'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504614
+    m_Localized: '% root'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504615
+    m_Localized: '% milk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504616
+    m_Localized: '% oil'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504617
+    m_Localized: '% sap'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504618
+    m_Localized: '% wax'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504619
+    m_Localized: '% acorn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504620
+    m_Localized: '% bean'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504621
+    m_Localized: '% bulb'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504622
+    m_Localized: '% cupule'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504623
+    m_Localized: '% cone'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504624
+    m_Localized: '% seed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504625
+    m_Localized: '% nut'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504626
+    m_Localized: '% pod'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504627
+    m_Localized: '% seed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504628
+    m_Localized: '% spore'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504629
+    m_Localized: '% seed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504630
+    m_Localized: '% seed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504631
+    m_Localized: '% seed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504632
+    m_Localized: '% soil'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504633
+    m_Localized: '% taproot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504634
+    m_Localized: '% taproot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504635
+    m_Localized: '% tuber'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504636
+    m_Localized: '% wood'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93553077709504637
+    m_Localized: '% wood'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

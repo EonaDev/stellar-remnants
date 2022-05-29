@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd295132d9c693408b8292ffc47d138, type: 3}
+  m_Name: ArchFlamethrower1
+  m_EditorClassIdentifier: 
+  ItemName: flamethrower
+  CategoryTitle: chemical weapon
+  Size: 2
+  Culture: 2
+  Category: 0
+  Manufacturer: 3
+  DamageType: 8
+  fluidType: 0
+  TankSize: 1
+  ReserveTankSize: 1
