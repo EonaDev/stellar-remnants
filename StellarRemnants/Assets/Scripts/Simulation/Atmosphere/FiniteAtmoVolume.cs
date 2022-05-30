@@ -83,15 +83,15 @@ namespace StellarRemnants.Simulation.Atmosphere {
             ThermalEnergy += thermalEnergy;
         }
 
-        public override void AddTemperature(double temperature) {
-            ThermalEnergy += temperature * Volume;
-        }
+        // public override void AddTemperature(double temperature) {
+        //     ThermalEnergy += temperature * Volume;
+        // }
 
-        public override void AddPressure(Gas compound, double moles) {
-            double delta = moles * Volume;
-            Composition[compound] = delta;
-            TotalMoles += delta;
-        }
+        // public override void AddPressure(Gas compound, double moles) {
+        //     double delta = moles * Volume;
+        //     Composition[compound] = delta;
+        //     TotalMoles += delta;
+        // }
 
         public override double GetPartialPressure(Gas compound) {
             return Composition[compound] / Volume;

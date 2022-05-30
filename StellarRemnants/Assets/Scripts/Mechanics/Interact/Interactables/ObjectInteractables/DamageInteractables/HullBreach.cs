@@ -1,7 +1,7 @@
 using StellarRemnants.Simulation.Atmosphere;
 
 namespace StellarRemnants.Interact {
-    public class HullBreach : DamageInteractable {
+    public class HullBreach : DamageInteractable, Threshold {
 
         /*----------------------------------------
         |   STATIC VARAIBLES
@@ -16,7 +16,8 @@ namespace StellarRemnants.Interact {
         |   LOCAL VARIABLES
         ----------------------------------------*/
         //public Threshold threshold;
-        public StructureRoom room;
+        public AtmoContainer SideA;
+        public AtmoContainer SideB;
         public bool isPatched = true;
         public float Size;
 
@@ -43,19 +44,22 @@ namespace StellarRemnants.Interact {
             return isPatched ? 0f : Size;
         }
 
+        public AtmoContainer GetConnectionA() { return SideA; }
+        public AtmoContainer GetConnectionB() { return SideB; }
 
 
 
 
-        /*----------------------------------------
-        |   INTERACTION ENABLED CHECKS
-        ----------------------------------------*/
-        public static bool AllowFix(HullBreach obj, Credentials credentials) { return !obj.isPatched; }
 
-        /*----------------------------------------
-        |   INTERACTION PERFORMED LOGIC
-        ----------------------------------------*/
-        public static bool PerformPatch(HullBreach obj, Credentials credentials) { return false; }
-        public static bool PerformCover(HullBreach obj, Credentials credentials) { return false; }
+        // /*----------------------------------------
+        // |   INTERACTION ENABLED CHECKS
+        // ----------------------------------------*/
+        // public static bool AllowFix(HullBreach obj, Credentials credentials) { return !obj.isPatched; }
+
+        // /*----------------------------------------
+        // |   INTERACTION PERFORMED LOGIC
+        // ----------------------------------------*/
+        // public static bool PerformPatch(HullBreach obj, Credentials credentials) { return false; }
+        // public static bool PerformCover(HullBreach obj, Credentials credentials) { return false; }
     }
 }

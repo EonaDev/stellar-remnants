@@ -32,8 +32,6 @@ namespace StellarRemnants.Interact {
         |   DATA MEMBERS
         ----------------------------------------*/
         private DoorVariant doorVariant;
-
-        //public Threshold Threshold;
         public bool AutoActivate;
         public bool IsOpen;
         public bool IsLocked;
@@ -41,6 +39,9 @@ namespace StellarRemnants.Interact {
         public bool IsJammed;
         public float Size;
         public float PercentOpen;
+
+        public StructureRoom RoomA;
+        public StructureRoom RoomB;
 
 
         /*----------------------------------------
@@ -73,9 +74,14 @@ namespace StellarRemnants.Interact {
             return Size * PercentOpen;
         }
 
+        public AtmoContainer GetConnectionA() { return RoomA; }
+        public AtmoContainer GetConnectionB() { return RoomB; }
 
+        public void SteppedUpdate() {
+            //Threshold.TransferAtmo(RoomA.GetAtmosphere(), RoomB.GetAtmosphere());
+        }
 
-
+        
 
 
 

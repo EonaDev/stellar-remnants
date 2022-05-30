@@ -3,7 +3,12 @@ using StellarRemnants.Simulation.Atmosphere;
 using StellarRemnants.Interact;
 
 namespace StellarRemnants {
-    public class StructureRoom {
+    public class StructureRoom : AtmoContainer {
+
+        // If a single vent is open, do not disconnect local atmo from global.
+        // Conversely, do not reconnect local to global no matter how many vents or air pathways are open.
+        // Instead, only reconnect once the two have equalized.
+
 
         /*----------------------------------------
         |   LOCAL VARIABLES
@@ -19,6 +24,12 @@ namespace StellarRemnants {
 
         private bool lifeSupportConnection;
         private int blockedVents;
+
+        private int airPathways;
+
+        public StructureRoom() {
+            airPathways = Vents.Length + Doors.Length;
+        }
         
 
         /*----------------------------------------
@@ -55,23 +66,33 @@ namespace StellarRemnants {
             return false;
         }
 
-        public AtmoVolume Atmosphere {
-            get{
-                if(LocalAtmosphere != null) {
-                    return LocalAtmosphere;
-                }
-                else {
-                    return Structure.Atmosphere;
-                }
-            }
-        }
         
+
+        
+        /*----------------------------------------
+        |   IMPLEMENTATIONS - AtmoContainer
+        ----------------------------------------*/
+        public AtmoVolume GetAtmosphere() { 
+            return LocalAtmosphere == null ? Structure.Atmosphere : LocalAtmosphere;
+        }
+
+        public void SetEqualized() {
+            
+        }
+
+
+        public void DoAtmoStuff2() { // Executes on each atmo tick
+            
+
+
+        }
+
 
         /*----------------------------------------
         |   PRIVATE FUNCTIONS
         ----------------------------------------*/
         private void JoinAtmosphere() {
-            // TODO: Only call this when the room's atmosphere composition the same as the general room.
+            // TODO: Two atmo containers are connected and exchange between them occurs.
             
         }
 

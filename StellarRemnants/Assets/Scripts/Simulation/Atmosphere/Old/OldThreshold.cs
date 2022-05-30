@@ -127,7 +127,7 @@ namespace StellarRemnants.Simulation.Atmosphere {
             // float rate = Size * PercentOpen * pressureDifference * DEPRESSURIZATION_RATE_MULTIPLIER; // Percentage of atmosphere moved per tick
 
             // // NOTE: Heat should be included in this function because thermal energy will always be transferred with depressurization.
-            // float tempDelta = rate * source.ThermalEnergy; // Transfer percentage of thermal energy based on total atmosphere moved always the same percentage of atmo moved.
+            // float tempDelta = rate * source.ThermalEnergy; // Transfer percentage of thermal energy based on total atmosphere moved. Always the same percentage of atmo moved.
             // source.AddThermalEnergy(-tempDelta);
             // destination.AddThermalEnergy(tempDelta);
 

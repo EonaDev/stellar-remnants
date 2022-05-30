@@ -54,14 +54,6 @@ namespace StellarRemnants.Simulation.Atmosphere {
             // Do nothing since volume is infinite.
         }
 
-        public override void AddTemperature(double temperature) {
-            // Do nothing since volume is infinite.
-        }
-
-        public override void AddPressure(Gas gas, double moles) {
-            // Do nothing since volume is infinite.
-        }
-
         public override void AddMoles(Gas gas, double moles) {
             // Do nothing since volume is infinite.
         }
